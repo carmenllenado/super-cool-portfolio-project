@@ -39,6 +39,7 @@
     .email-link {
         font-size: 10px;
     }
+    
 }
 
 body {
@@ -64,6 +65,8 @@ h3 {
 .navigation-links {
     text-align: center;
     margin: 60px;
+    display: flex;
+    justify-content: center;
 }
 
 .homepage-link {
@@ -81,8 +84,9 @@ h3 {
 }
 
 .primary-link {
-    border-radius: 4px;
-    padding: 20px 15px;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
     text-decoration: none;
     background: var(--link-color);
     box-shadow: var(--link-shadow);
